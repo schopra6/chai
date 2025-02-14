@@ -13,7 +13,6 @@ logger = getLogger()
 class Tokenizer:
     def __init__(self, tokenizer):
         self.tokenizer = tokenizer
-        pass
         # reload tokenizer
         #self.sp_model = SentencePieceProcessor(model_file=model_path)
         #logger.info(f"Reloaded SentencePiece model from {model_path}")
